@@ -49,11 +49,11 @@
 
         default_layer {
             bindings = <
-    &kp ESC     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-    &kp TAB      AS(Q)     AS(W)     AS(E)      AS(R)   AS(T)               &none                                                                 &none   AS(Y)   AS(U)      AS(I)     AS(O)     AS(P)   &kp BSLH
-    &mt LCTRL ESC      AS(A)     AS(S)     AS(D)      AS(F)   AS(G)               &none  &kp LCTRL  &kp LOPT   &none   &none   &kp LGUI  &kp RCTRL      &none   AS(H)   AS(J)      AS(K)     AS(L)  &kp SEMI    &kp SQT
-    &kp LSHFT      AS(Z)     AS(X)     AS(C)      AS(V)   AS(B)               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   AS(N)   AS(M)   &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-      &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC   &kp LCMD   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT      &mo 2
+    &kp ESC         &kp N1      &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6  &kp N7     &kp N8     &kp N9    &kp N0  &kp MINUS
+    &kp TAB         AS(Q)       AS(W)     AS(E)      AS(R)   AS(T)               &none                                                                 &none   AS(Y)   AS(U)      AS(I)     AS(O)     AS(P)   &kp BSLH
+    &mt LCTRL ESC   AS(A)       AS(S)     AS(D)      AS(F)   AS(G)               &none  &kp LCTRL  &kp LOPT   &none   &none   &kp LGUI  &kp RCTRL      &none   AS(H)   AS(J)      AS(K)     AS(L)  &kp SEMI    &kp SQT
+    &kp LSHFT       AS(Z)       AS(X)     AS(C)      AS(V)   AS(B)               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   AS(N)   AS(M)      &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+    &mo 2           &kp GRAVE   &kp CAPS  &kp LEFT   &kp RIGHT                   &kp BSPC   &kp LCMD   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
