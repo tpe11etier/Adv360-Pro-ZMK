@@ -59,7 +59,7 @@
     &kp ESC         &kp N1      &kp N2    &kp N3     &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6  &kp N7     &kp N8     &kp N9    &kp N0  &kp MINUS
     &kp TAB         AS(Q)       AS(W)     AS(E)      AS(R)   AS(T)               &none                                                                 &none   AS(Y)   AS(U)      AS(I)     AS(O)     AS(P)   &kp BSLH
     &mt LCTRL ESC   AS(A)       AS(S)     AS(D)      AS(F)   AS(G)               &none  &kp LCTRL  &kp LOPT   &none   &none   &kp LGUI  &kp RCTRL      &none   AS(H)   AS(J)      AS(K)     AS(L)  &kp SEMI    &kp SQT
-    &kp LSHFT       AS(Z)       AS(X)     AS(C)      AS(V)   AS(B)               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   AS(N)   AS(M)      &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+    &kp LSHFT       AS(Z)       AS(X)     AS(C)      AS(V)   AS(B)               &none      &none  &kp HOME   &none   &none   &kp PG_UP      &none      &none   AS(N)   AS(M)      &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
     &mo 2           &kp GRAVE   &kp CAPS  &kp LEFT   &kp RIGHT                   &kp BSPC   &kp LCMD   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp DOWN   &kp UP  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
@@ -91,16 +91,6 @@
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none   &none   &none  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                             &none       &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC                                 &rgb_ug RGB_TOG  &bl BL_TOG   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &none         &none   &none
-            >;
-        };
-
-        layer_Test {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
