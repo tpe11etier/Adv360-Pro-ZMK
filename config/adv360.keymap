@@ -27,7 +27,7 @@
     quick_tap_ms = <200>;
 };
 
-{
+/ {
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
